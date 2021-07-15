@@ -247,5 +247,6 @@ int main(int argc, char* argv[]){
             break;
     }while(action != 'q' && action != 'Q');
 
+    printf("finish!\n");
     return ret;
 }
